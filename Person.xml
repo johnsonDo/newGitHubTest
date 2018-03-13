@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rule>
+    <inStruct id="resInterfacelast1" datatype="json" name="ruleIn">
+        <node name="person" datatype="json">
+            <node name="name" datatype="String">姓名</node>
+            <node name="age" datatype="int">年龄</node>
+        </node>
+        <node name="test" datatype="int">test</node>
+    </inStruct>
+    <wholeStruct id="testWhole123" datatype="json" name="wholeRule">
+        <node name="class" datatype="json">
+            <node name="english" datatype="String">chinese</node>
+            <node name="number" datatype="String">人数</node>
+            <node name="class" datatype="int">年级</node>
+        </node>
+    </wholeStruct>
+    <outStruct id="resInterfaceNo1" datatype="json" name="ruleOut">
+        <node name="resobject1" datatype="json">
+            <node name="reqfield001" datatype="double">sf</node>
+        </node>
+        <node name="resobject2" datatype="json">
+            <node name="resfield002" datatype="Date" format="yyyy-MM-dd">sdg</node>
+        </node>
+    </outStruct>
+</rule>
